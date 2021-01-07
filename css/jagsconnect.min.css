@@ -266,6 +266,23 @@ a:hover,
     background: url('../images/assets/hannah-busing-WG6iLHfMY9Y-unsplash.jpg') no-repeat center center/cover;
 }
 
+.item>img.owl-lazy,
+.view-more-card {
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+}
+
+.view-more-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.icon-md {
+    font-size: 24px;
+}
+
 
 /* Small devices (landscape phones, 576px and up) */
 
